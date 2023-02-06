@@ -57,7 +57,14 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'space-between',
   },
   menuButton: { padding: 0 },
-  mt1: { marginTop: '1rem' },
+  mt1: { marginTop: '1rem', 
+  height : "400px",
+  width : "100%",
+  "& img" : {
+      height : "400px",
+      width: "-webkit-fill-available"
+  }
+},
   // search
   searchSection: {
     display: 'none',
