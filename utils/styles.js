@@ -58,10 +58,10 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButton: { padding: 0 },
   mt1: { marginTop: '1rem', 
-  height : "400px",
+  height : "300px",
   width : "100%",
   "& img" : {
-      height : "400px",
+      height : "300px",
       width: "-webkit-fill-available"
   }
 },
